@@ -5,4 +5,5 @@ main() async {
   int one = N.elementAt(0);
   int two = N.elementAt(1);
   print(two ~/ one);
+  exit(0);
 }
