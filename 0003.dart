@@ -1,6 +1,6 @@
 void main(List<String> args) {
-  var a = '21474836479989874';
-  var b = '256469754213564987546';
+  var a = '2147483647998987458456284623864561';
+  var b = '2564697542135649875465498456118974956161897984';
   var l = a.length > b.length ? a.length : b.length + 1;
   var sb = StringBuffer();
   a = a.padLeft(l, ' ');
